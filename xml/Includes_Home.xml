@@ -1856,7 +1856,8 @@
 				</include>
 				<control type="grouplist" id="5001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(movies)">
 						<param name="content_path" value="library://video/movies/"/>
@@ -1922,7 +1923,8 @@
 				</include>
 				<control type="grouplist" id="6001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(tvshows)">
 						<param name="content_path" value="library://video/tvshows/"/>
@@ -1985,7 +1987,8 @@
 				</include>
 				<control type="grouplist" id="7001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(music)">
 						<param name="content_path" value="library://music/"/>
@@ -2037,7 +2040,8 @@
 				</include>
 				<control type="grouplist" id="8001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories">
 						<param name="content_path" value="addons://"/>
@@ -2117,7 +2121,8 @@
 				</include>
 				<control type="grouplist" id="11001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories">
 						<param name="content_path" value="library://video/"/>
@@ -2155,7 +2160,8 @@
 				</include>
 				<control type="grouplist" id="12001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<control type="grouplist" id="12855">
 						<height>390</height>
@@ -2226,7 +2232,8 @@
 				</include>
 				<control type="grouplist" id="13001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<control type="grouplist" id="13855">
 						<height>390</height>
@@ -2349,7 +2356,8 @@
 				</include>
 				<control type="grouplist" id="15001">
 					<include>WidgetGroupListCommon</include>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
 					<control type="group" id="16678">
 						<description>Weather info</description>
 						<left>68</left>
@@ -2444,7 +2452,9 @@
 				</include>
 				<control type="grouplist" id="16001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
+
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(musicvideos)">
 						<param name="content_path" value="library://music/musicvideos/"/>
@@ -2513,7 +2523,9 @@
 				</include>
 				<control type="grouplist" id="4001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup condition="Skin.HasSetting(ShowHomeMenu)">700</onup>
+					<onup condition="!Skin.HasSetting(ShowHomeMenu)">9100</onup>
+
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="!Skin.HasSetting(HomeMenuNoPicturesButton)">
 						<param name="content_path" value="sources://pictures/"/>
@@ -2780,7 +2792,7 @@
 				</include>
 				<control type="grouplist" id="5001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(movies)">
 						<param name="content_path" value="library://video/movies/"/>
@@ -2847,7 +2859,7 @@
 				</include>
 				<control type="grouplist" id="6001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(tvshows)">
 						<param name="content_path" value="library://video/tvshows/"/>
@@ -2909,7 +2921,7 @@
 				</include>
 				<control type="grouplist" id="7001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(music)">
 						<param name="content_path" value="library://music/"/>
@@ -2917,28 +2929,28 @@
 						<param name="widget_target" value="music"/>
 						<param name="list_id" value="7900"/>
 					</include>
-					<include content="WidgetListSquare" condition="Library.HasContent(music)">
+					<include content="WidgetListSquare">
 						<param name="content_path" value="$VAR[DefWidgetMusic1Content]"/>
 						<param name="widget_header" value="$VAR[DefWidgetMusic1Label]"/>
 						<param name="widget_target" value="$VAR[DefWidgetMusic1Target]"/>
 						<param name="list_id" value="7100"/>
 						<param name="fallback_icon" value="DefaultMusicAlbums.png"/>
 					</include>
-					<include content="WidgetListSquare" condition="Library.HasContent(music)">
+					<include content="WidgetListSquare">
 						<param name="content_path" value="$VAR[DefWidgetMusic2Content]"/>
 						<param name="widget_header" value="$VAR[DefWidgetMusic2Label]"/>
 						<param name="widget_target" value="$VAR[DefWidgetMusic2Target]"/>
 						<param name="list_id" value="7200"/>
 						<param name="fallback_icon" value="DefaultMusicAlbums.png"/>
 					</include>
-					<include content="WidgetListSquare" condition="Library.HasContent(music)">
+					<include content="WidgetListSquare">
 						<param name="content_path" value="$VAR[DefWidgetMusic3Content]"/>
 						<param name="widget_header" value="$VAR[DefWidgetMusic3Label]"/>
 						<param name="widget_target" value="$VAR[DefWidgetMusic3Target]"/>
 						<param name="list_id" value="7300"/>
 						<param name="fallback_icon" value="DefaultMusicAlbums.png"/>
 					</include>
-					<include content="WidgetListSquare" condition="Library.HasContent(music)">
+					<include content="WidgetListSquare">
 						<param name="content_path" value="$VAR[DefWidgetMusic4Content]"/>
 						<param name="widget_header" value="$VAR[DefWidgetMusic4Label]"/>
 						<param name="widget_target" value="$VAR[DefWidgetMusic4Target]"/>
@@ -2946,13 +2958,6 @@
 						<param name="fallback_icon" value="DefaultMusicArtists.png"/>
 					</include>
 				</control>
-				<include content="ImageWidget" condition="!Library.HasContent(music)">
-					<param name="text_label" value="$LOCALIZE[31104]" />
-					<param name="button_label" value="$LOCALIZE[31110]" />
-					<param name="button_onclick" value="ActivateWindow(music,files)"/>
-					<param name="button_id" value="7600"/>
-					<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoMusicButton)"/>
-				</include>
 			</control>
 			<control type="group" id="8000">
 				<visible>String.IsEqual(Container(9100).ListItem.Property(defaultID),addons)</visible>
@@ -2961,7 +2966,7 @@
 				</include>
 				<control type="grouplist" id="8001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories">
 						<param name="content_path" value="addons://"/>
@@ -3041,7 +3046,7 @@
 				</include>
 				<control type="grouplist" id="11001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories">
 						<param name="content_path" value="library://video/"/>
@@ -3079,7 +3084,7 @@
 				</include>
 				<control type="grouplist" id="12001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<control type="grouplist" id="12855">
 						<height>390</height>
@@ -3150,7 +3155,7 @@
 				</include>
 				<control type="grouplist" id="13001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<control type="grouplist" id="13855">
 						<height>390</height>
@@ -3273,7 +3278,7 @@
 				</include>
 				<control type="grouplist" id="15001">
 					<include>WidgetGroupListCommon</include>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<control type="group" id="16678">
 						<description>Weather info</description>
 						<left>68</left>
@@ -3368,7 +3373,7 @@
 				</include>
 				<control type="grouplist" id="16001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="Library.HasContent(musicvideos)">
 						<param name="content_path" value="library://music/musicvideos/"/>
@@ -3437,7 +3442,7 @@
 				</include>
 				<control type="grouplist" id="4001">
 					<top>40</top>
-					<onup>700</onup>
+					<onup>9100</onup>
 					<include>WidgetGroupListCommon</include>
 					<include content="WidgetListCategories" condition="!Skin.HasSetting(HomeMenuNoPicturesButton)">
 						<param name="content_path" value="sources://pictures/"/>
@@ -3480,32 +3485,29 @@
 			<include>OpenClose_Left</include>
 
 			<control type="list" id="9100">
-				<visible>Skin.HasSetting(ShowHomeSmallMenu)</visible>
 				<left>30</left>
 				<right>10</right>
 				<top>100</top>
 				<height>60</height>
 				<movement>6</movement>
 				<focusposition>1</focusposition>
-				<onfocus>ClearProperty(listposition,home)</onfocus>
-				<onunfocus>Skin.Reset(ShowHomeSmallMenu)</onunfocus>
 				<onup>700</onup>
 				<ondown
-						condition="!Skin.HasSetting(ShowHomeMenu) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),addons) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),weather) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),games) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),radio) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),music)  + !String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),movies) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites + !String.IsEqual(Container(9100).ListItem.Property(defaultID),vidoes + !String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">
+						condition="!String.IsEqual(Container(9100).ListItem.Property(defaultID),addons) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),weather) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),games) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),radio) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),music)  + !String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),movies) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites + !String.IsEqual(Container(9100).ListItem.Property(defaultID),vidoes + !String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">
 					18000
 				</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),addons)">8000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),weather)">15000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),games)">17000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv)">12000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),radio)">13000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows)">6000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),music)">7000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos)">16000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),movies)">5000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites)">14000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),videos)">11000</ondown>
-				<ondown condition="!Skin.HasSetting(ShowHomeMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">4000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),addons)">8000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),weather)">15000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),games)">17000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv)">12000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),radio)">13000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows)">6000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),music)">7000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos)">16000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),movies)">5000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites)">14000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),videos)">11000</ondown>
+				<ondown condition="String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">4000</ondown>
 				<scrolltime tween="cubic" easing="out">500</scrolltime>
 				<orientation>horizontal</orientation>
 				<animation effect="slide" start="-462" end="0" time="200" delay="100" tween="quadratic" easing="out">VisibleChange</animation>
@@ -3562,44 +3564,8 @@
 				<width>840</width>
 				<height>110</height>
 				<top>0</top>
-				<onup condition="Skin.HasSetting(ShowHomeSmallMenu)">SetFocus(9100)</onup>
-				<onup
-						condition="!Skin.HasSetting(ShowHomeSmallMenu) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),addons) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),weather) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),games) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),radio) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),music)  + !String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),movies) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites + !String.IsEqual(Container(9100).ListItem.Property(defaultID),vidoes + !String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">
-					18000
-				</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),addons)">8000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),weather)">15000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),games)">17000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv)">12000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),radio)">13000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows)">6000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),music)">7000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos)">16000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),movies)">5000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites)">14000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),videos)">11000</onup>
-				<onup condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">4000</onup>
-
-				<ondown condition="Skin.HasSetting(ShowHomeSmallMenu)">SetFocus(9100)</ondown>
-
-
-				 <ondown
-                            condition="!Skin.HasSetting(ShowHomeSmallMenu) + !String.IsEqual(Container(9100).ListItem.Property(defaultID),addons) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),weather) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),games) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),livetv) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),radio) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),tvshows) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),music)  + !String.IsEqual(Container(9000).ListItem.Property(defaultID),musicvideos) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),movies) + !String.IsEqual(Container(9000).ListItem.Property(defaultID),favorites + !String.IsEqual(Container(9000).ListItem.Property(defaultID),vidoes + !String.IsEqual(Container(9000).ListItem.Property(defaultID),pictures)">
-                        18000
-                    </ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),addons)">8000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),weather)">15000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),games)">17000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),livetv)">12000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),radio)">13000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),tvshows)">6000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),music)">7000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),musicvideos)">16000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),movies)">5000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),favorites)">14000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),videos)">11000</ondown>
-                    <ondown condition="!Skin.HasSetting(ShowHomeSmallMenu) + String.IsEqual(Container(9100).ListItem.Property(defaultID),pictures)">4000</ondown>
-
+				<onup>SetFocus(9100)</onup>
+				<ondown>SetFocus(9100)</ondown>
 				<onright>2000</onright>
 
 				<align>justify</align>
@@ -3609,28 +3575,24 @@
 					<param name="onclick_2" value="ActivateWindow(home)"/>
 					<param name="icon" value="icons/home.png" />
 					<param name="label" value="$LOCALIZE[40001]" />
-					<param name="onfocus" value="Skin.Reset(ShowHomeSmallMenu)"></param>
 				</include>
 				<include content="IconButton">
 					<param name="control_id" value="809" />
 					<param name="icon" value="icons/filemanager.png" />
 					<param name="label" value="$LOCALIZE[40002]" />
 					<param name="active" value="buttons/roundbutton-fo.png" />
-					<param name="onfocus" value="Skin.Reset(ShowHomeSmallMenu)"></param>
 				</include>
 				<include content="IconButton">
 					<param name="control_id" value="810" />
 					<param name="onclick" value="Skin.ToggleSetting(ShowHomeMenu)" />
 					<param name="icon" value="icons/menu.png" />
 					<param name="label" value="$LOCALIZE[40003]" />
-					<param name="onfocus" value="Skin.SetBool(ShowHomeSmallMenu)"></param>
 				</include>
 				<include content="IconButton">
 					<param name="control_id" value="801" />
 					<param name="onclick" value="ActivateWindow(1107)" />
 					<param name="icon" value="icons/search.png" />
 					<param name="label" value="$LOCALIZE[137]" />
-					<param name="onfocus" value="Skin.Reset(ShowHomeSmallMenu)"></param>
 				</include>
 				<include content="IconButton">
 					<param name="control_id" value="803" />
@@ -3638,14 +3600,12 @@
 					<param name="icon" value="icons/now-playing/fullscreen.png" />
 					<param name="label" value="$LOCALIZE[31000]" />
 					<param name="visible" value="Player.HasMedia" />
-					<param name="onfocus" value="Skin.Reset(ShowHomeSmallMenu)"></param>
 				</include>
 				<include content="IconButton">
 					<param name="control_id" value="802" />
 					<param name="onclick" value="ActivateWindow(settings)" />
 					<param name="icon" value="icons/settings.png" />
 					<param name="label" value="$LOCALIZE[21417]" />
-					<param name="onfocus" value="Skin.Reset(ShowHomeSmallMenu)"></param>
 				</include>
 
 				<include content="IconButton">
@@ -3653,7 +3613,6 @@
 					<param name="onclick" value="ActivateWindow(shutdownmenu)" />
 					<param name="icon" value="icons/power.png" />
 					<param name="label" value="$LOCALIZE[33060]" />
-					<param name="onfocus" value="Skin.Reset(ShowHomeSmallMenu)"></param>
 				</include>
 
 			</control>

@@ -155,7 +155,7 @@
 				<focusedcolor>ff222222</focusedcolor>
 				<label>$PARAM[label]</label>
 				<texturefocus colordiffuse="button_focus">buttons/roundbutton-fo.png</texturefocus>
-				<texturenofocus />
+				<texturenofocus colordiffuse="secondary">$PARAM[active]</texturenofocus>
 				<radioposx>40</radioposx>
 				<radioposy>0</radioposy>
 				<radiowidth>40</radiowidth>

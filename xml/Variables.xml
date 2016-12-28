@@ -244,7 +244,7 @@
 
 		<value condition="String.IsEqual(ListItem.DBType,episode)">$INFO[ListItem.Season]$INFO[ListItem.Episode,[COLOR grey]x[/COLOR],: ]$INFO[ListItem.TVShowTitle]</value>
 		<value condition="String.IsEqual(ListItem.DBType,movie)">$INFO[ListItem.Tagline,[I],[/I]]</value>
-		<value condition="!IsEmpty(Window(Home).Property(SkinHelper.ListItem.Tagline))">$INFO[Window(Home).Property(SkinHelper.ListItem.Tagline),[I],[/I]]</value>
+		<value condition="!IsEmpty(Window(Home).Property(SkinHelper.ListItem.Tagline))">$INFO[Window(Home).Property(SkinHelper.ListItem.Tagline),[I][COLOR=cadmium yellow],[/COLOR][/I]]</value>
 
 		<value>$INFO[ListItem.Genre]</value>
 	</variable>
@@ -836,6 +836,21 @@
 
 	</variable>
 
+	<variable name="WidgetKarmaPlot">
+		<value condition="!String.IsEmpty(Container(7302).ListItem.Plot) + Control.HasFocus(7302)">$INFO[Container(7302).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7303).ListItem.Plot) + Control.HasFocus(7303)">$INFO[Container(7303).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7304).ListItem.Plot) + Control.HasFocus(7304)">$INFO[Container(7304).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7305).ListItem.Plot) + Control.HasFocus(7305)">$INFO[Container(7305).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7306).ListItem.Plot) + Control.HasFocus(7306)">$INFO[Container(7306).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7307).ListItem.Plot) + Control.HasFocus(7307)">$INFO[Container(7307).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7308).ListItem.Plot) + Control.HasFocus(7308)">$INFO[Container(7308).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7309).ListItem.Plot) + Control.HasFocus(7309)">$INFO[Container(7309).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7310).ListItem.Plot) + Control.HasFocus(7310)">$INFO[Container(7310).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7311).ListItem.Plot) + Control.HasFocus(7311)">$INFO[Container(7311).ListItem.Plot]</value>
+		<value condition="!String.IsEmpty(Container(7312).ListItem.Plot) + Control.HasFocus(7312)">$INFO[Container(7312).ListItem.Plot]</value>
+
+	</variable>
+
 	<variable name="RottenTomatoesIcon">
 		<value condition="String.IsEqual(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Image),certified)">ratings/certifiedfresh.png</value>
 		<value condition="Integer.IsGreater(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Meter),59)">ratings/tomatoe.png</value>
@@ -899,6 +914,15 @@
 		<value condition="VideoPlayer.Content(movies) + String.IsEmpty(VideoPlayer.DBID)">plugin://script.skin.helper.service/?action=getcast&amp;movie=$INFO[VideoPlayer.Title]&castaction=extendedinfo&amp;downloadthumbs=true</value>
 		<value condition="VideoPlayer.Content(episodes) + String.IsEmpty(VideoPlayer.DBID)">plugin://script.skin.helper.service/?action=getcast&amp;tvshow=$INFO[VideoPlayer.TvShowTitle]&castaction=extendedinfo&amp;downloadthumbs=true</value>
 
+	</variable>
+
+	<variable name="HomeWidgetFadeTime">
+		<value condition="!String.IsEmpty(Skin.String(widgets.dim.time))">$INFO[Skin.String(widgets.dim.time)]</value>
+		<value>10</value>
+	</variable>
+
+	<variable name="ColourStudio">
+		<value>$INFO[Window(home).Property(SkinHelper.ListItem.StudioLogo)]</value>
 	</variable>
 
 </includes>

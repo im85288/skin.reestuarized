@@ -883,3 +883,15 @@ msgstr ""
 msgctxt "#40040"
 msgid "Fade home widget to show background images after 10 seconds"
 msgstr ""
+
+msgctxt "#40041"
+msgid "Fade home widget to show background images after focused for 15 secs"
+msgstr ""
+
+msgctxt "#40042"
+msgid "  -- Set the period to wait"
+msgstr ""
+
+msgctxt "#40043"
+msgid "Seconds"
+msgstr ""

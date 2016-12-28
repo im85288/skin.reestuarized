@@ -70,10 +70,11 @@
 				</control>
 				<control type="radiobutton" id="407" description="Fade widgets">
 					<include>DefaultSettingButton</include>
-					<label>40040</label>
+					<label>40041</label>
 					<selected>Skin.HasSetting(widgets.dim)</selected>
 					<onclick>Skin.ToggleSetting(widgets.dim)</onclick>
 				</control>
+
 				<control type="image" id="111">
 					<description>separator image</description>
 					<height>3</height>
@@ -244,6 +245,17 @@
 					<selected>System.HasAddon(script.tv.show.next.aired)</selected>
 					<onclick condition="!System.HasAddon(script.tv.show.next.aired)">InstallAddon(script.tv.show.next.aired)</onclick>
 					<onclick condition="System.HasAddon(script.tv.show.next.aired)">Addon.OpenSettings(script.tv.show.next.aired)</onclick>
+				</control>
+				<control type="radiobutton" id="506">
+					<label>resource.images.studios.coloured $INFO[System.AddonVersion(resource.images.studios.coloured),(,)]</label>
+					<textureradioonfocus colordiffuse="primary">buttons/status-on.png</textureradioonfocus>
+					<textureradioonnofocus colordiffuse="primary">buttons/status-on.png</textureradioonnofocus>
+					<textureradioofffocus colordiffuse="secondary">buttons/status-off.png</textureradioofffocus>
+					<textureradiooffnofocus colordiffuse="secondary">buttons/status-off.png</textureradiooffnofocus>
+					<include>DefaultSettingButton</include>
+					<selected>System.HasAddon(resource.images.studios.coloured)</selected>
+					<onclick condition="!System.HasAddon(resource.images.studios.coloured)">InstallAddon(resource.images.studios.coloured)</onclick>
+					<onclick condition="System.HasAddon(resource.images.studios.coloured)">Addon.OpenSettings(resource.images.studios.coloured)</onclick>
 				</control>
 
 			</control>
