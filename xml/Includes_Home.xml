@@ -233,19 +233,21 @@
 						</control>
 						<control type="group">
 							<left>300</left>
-							<control type="label">
+							<control type="textbox">
 								<top>30</top>
 								<label>$INFO[ListItem.Genre]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>BB000000</textcolor>
-								<font>font22_title_upper</font>
+								<font>font18_title_upper</font>
+								<height>45</height>
 							</control>
-							<control type="label">
+							<control type="textbox">
 								<top>75</top>
 								<label>$INFO[ListItem.Label]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>BB000000</textcolor>
 								<font>font32_title</font>
+								<height>100</height>
 							</control>
 							<control type="textbox">
 								<top>180</top>
@@ -293,19 +295,21 @@
 						</control>
 						<control type="group">
 							<left>300</left>
-							<control type="label">
+							<control type="textbox">
 								<top>30</top>
 								<label>$INFO[ListItem.Genre]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>DDFFFFFF</textcolor>
-								<font>font22_title_upper</font>
+								<font>font18_title_upper</font>
+								<height>45</height>
 							</control>
-							<control type="label">
+							<control type="textbox">
 								<top>75</top>
 								<label>$INFO[ListItem.Label]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>DDFFFFFF</textcolor>
 								<font>font32_title</font>
+								<height>100</height>
 							</control>
 							<control type="textbox">
 								<top>180</top>
@@ -424,12 +428,13 @@
 									<visible>String.IsEmpty(Skin.String(home6.path))</visible>
 								</control>
 							</control>
-							<control type="label">
+							<control type="textbox">
 								<top>95</top>
 								<label>$INFO[ListItem.Label]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>DDffffff</textcolor>
 								<font>font22_title_upper</font>
+								<height>100</height>
 							</control>
 							<control type="textbox">
 
@@ -551,19 +556,21 @@
 						</control>
 						<control type="group">
 							<left>410</left>
-							<control type="label">
+							<control type="textbox">
 								<top>30</top>
 								<label>$INFO[ListItem.Genre]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>BB000000</textcolor>
 								<font>font18_title_upper</font>
+								<height>45</height>
 							</control>
-							<control type="label">
+							<control type="textbox">
 								<top>75</top>
 								<label>$INFO[ListItem.Label]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>BB000000</textcolor>
 								<font>font32_title</font>
+								<height>100</height>
 							</control>
 							<control type="textbox">
 								<top>180</top>
@@ -609,19 +616,21 @@
 						</control>
 						<control type="group">
 							<left>410</left>
-							<control type="label">
+							<control type="textbox">
 								<top>30</top>
 								<label>$INFO[ListItem.Genre]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>DDFFFFFF</textcolor>
 								<font>font18_title_upper</font>
+								<height>45</height>
 							</control>
-							<control type="label">
+							<control type="textbox">
 								<top>75</top>
 								<label>$INFO[ListItem.Label]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>DDFFFFFF</textcolor>
 								<font>font32_title</font>
+								<height>100</height>
 							</control>
 							<control type="textbox">
 								<top>180</top>
@@ -741,12 +750,13 @@
 
 								</control>
 							</control>
-							<control type="label">
+							<control type="textbox">
 								<top>95</top>
 								<label>$INFO[ListItem.Label]</label>
 								<shadowcolor>text_shadow</shadowcolor>
 								<textcolor>DDffffff</textcolor>
 								<font>font22_title_upper</font>
+								<height>85</height>
 							</control>
 							<control type="textbox">
 								<top>180</top>
