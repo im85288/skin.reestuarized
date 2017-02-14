@@ -8,6 +8,7 @@
     </coordinates>
     <backgroundcolor>background</backgroundcolor>
     <onload>ClearProperty(SkinHelper.WidgetContainer,Home)</onload>
+    <onload>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;group=mainmenu|home|videos|movie|tvshow|musicvideo|music|livetv|radio|pictures|addons|weather|powermenu|movieshub|episodeshub|librarymenu)</onload>
 
     <onunload>ClearProperty(SkinHelper.WidgetContainer,Home)</onunload>
 

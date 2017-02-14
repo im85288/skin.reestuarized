@@ -168,13 +168,13 @@
 							<param name="list_id" value="7308"/>
 						</include>
 
-						<include content="WidgetListTVSquare">
+						<include content="WidgetListTVSquareInfo">
 							<param name="content_path" value="$VAR[DefWidgetHome8Content]"/>
 							<param name="widget_header" value="$VAR[DefWidgetHome8Label]"/>
 							<param name="widget_target" value="$VAR[DefWidgetHome8Target]"/>
 							<param name="list_id" value="7309"/>
 						</include>
-						<include content="WidgetListPosterRounded">
+						<include content="WidgetListPosterInfo">
 							<param name="content_path" value="$VAR[DefWidgetHome9Content]"/>
 							<param name="widget_header" value="$VAR[DefWidgetHome9Label]"/>
 							<param name="widget_target" value="$VAR[DefWidgetHome9Target]"/>
